@@ -98,7 +98,7 @@ gulp.task('browser-sync', function() {
 
 // Clean Up Things
 gulp.task('clean', function() {
-  return gulp.src(['dist/styles', 'dist/scripts', 'dist/images'], {read: false})
+  return gulp.src(['dist'], {read: false})
     .pipe(clean());
 });
 
